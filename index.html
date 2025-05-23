@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAKETHSIRX</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/06c466bb06.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- Image size = 243x107 -->
+                <img src="images/LOGO.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a data-aos="fade-down" data-aos-duration="2000" href="#home">Home</a></li>
+                    <li><a data-aos="fade-down" data-aos-duration="2500" href="#about">About</a></li>
+                    <li><a data-aos="fade-down" data-aos-duration="3000" href="#services">Services</a></li>
+                    <li><a data-aos="fade-down" data-aos-duration="3000" href="#Portfolio">Portfolio</a></li>
+                    <li><a data-aos="fade-down" data-aos-duration="3000" href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="row">
+                <div class="header-text">
+                    
+                    <p data-aos="fade-down" data-aos-duration="2000">Video Editor</p>
+                    <h1 data-aos="fade-down" data-aos-duration="1000">Hi, I'm <span>Saketh</span><br>Love to edit videos</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------- About Section --------------->
+    <div id="about" >
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1" data-aos="fade-right">
+                    <!-- Image size 624x811 -->
+                    <img src="images/SAKETHSIRX LOGOED (1).jpg">
+                </div>
+                <div class="about-col-2" data-aos="fade-left" time="1000">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Interested in video editing, web development, and app development.<br><br>
+                        At SAKETHSIRX, we blend innovation, technology, and creativity to build visually stunning and highly functional digital experiences. Whether it's web development, UI/UX design, or content creation, our goal is to turn ideas into reality with precision and passion.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Video Editor</span><br>Windows: Adobe After Effects, CapCut<br>Android: Alight Motion, CapCut</li>
+                            <li><span>Web Developer</span><br>Full Stack Developer<br>Frontend: HTML, CSS, JS<br>Backend: PHP, MySQL</li>
+                            <li><span>App Developer</span><br>Andriod studio<br>Java, XML</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Video Editing</span><br>From past 6 years</li>
+                            <li><span>Web Development</span><br>From past 2 years</li>
+                            <li><span>App Development</span><br>From past 4 months</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Pursuing a degree at SISTK</li>
+                            <li><span>2020 - 2022</span><br>Intermediate at Sai Srinivasa Junior College</li>
+                            <li><span>2019 - 2020</span><br>Secondary School Education at Bhashyam High School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sevices -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+             <div data-aos="fade-up"
+             data-aos-anchor-placement="top-bottom" time="1000">
+                <i class="fa-solid fa-video"></i>
+                <h2>Video Editing</h2>
+                <p>need to be done later</p>
+                <a href="#">Learn more</a>
+             </div> 
+             <div data-aos="fade-up"
+             data-aos-anchor-placement="top-bottom" time="1500">
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>need to be done later</p>
+                <a href="#">Learn more</a>
+             </div> 
+             <div data-aos="fade-up"
+             data-aos-anchor-placement="top-bottom" time="3000">
+                <i class="fa-brands fa-android"></i>
+                <h2>App Development</h2>
+                <p>need to be done later</p>
+                <a href="#">Learn more</a>
+             </div> 
+            </div>  
+        </div>
+    </div>
+    <!-- Portfolio -->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My WORKS_</h1>
+            <div class="work-list" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom">
+                <div class="work">
+                    <img src="images/work1.jpg">
+                    <div class="layer">
+                        <h3>A Youtube Video</h3>
+                        <p>which got across 23k views<br>click below to redirect</p>
+                        <a href="https://youtu.be/USjG5TZzmkw?si=OiWID5iKonUyEBQ1" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work" data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom">
+                    <img src="images/work2.jpg">
+                    <div class="layer">
+                        <h3>A Youtube Video</h3>
+                        <p>Not much views, sure you would like it<br>click below to redirect</p>
+                        <a href="https://youtu.be/n_NQCHlI4JA?si=rzgRLB5NIaOwzoHK" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work" data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom">
+                    <img src="images/work3.jpg">
+                    <div class="layer">
+                        <h3>A Youtube Video</h3>
+                        <p>Not much views, sure you would like it<br>click below to redirect</p>
+                        <a href="https://youtu.be/OwKjRuZ1HkM?si=HTQYPeqA65aOcDPS" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a> 
+        </div>
+    </div>
+    <!-- Contact -->
+    <div id="contact" data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="continer-left">
+                  <h1>Cantact me</h1>
+                  <p><i class="fa-solid fa-paper-plane"></i>sakethsirx@gmail.com</p>
+                  <p><i class="fa-solid fa-phone"></i>+91 9666961234</p>
+                   <div class="social-icons">
+                    <a href="https://www.bing.com/search?pglt=131&q=itz_saketh&cvid=17cb47fbec6447d291792691c0bbaf2d&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOTIGCAEQRRg8MgYIAhBFGDwyBggDEEUYPNIBCTEyNDkxajBqMagCALACAA&FORM=ANNTA1&PC=HCTS" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/sakethsirx/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter" target="_blank"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin" target="_blank"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube" target="_blank"></i></a>
+                   </div>
+                   <a href="images/SAKETH REASUME.docx" class="btn btn2" download>Download CV</a>
+                </div>
+                <div class="continer-right">
+                    <form>
+                        <input type="text" name="name" placeholder=" Your Name" reguired>
+                        <input type="email" name="email" placeholder=" Your Email" reguired>
+                        <textarea name="message" rows="4" placeholder="Your Message" reguired></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg">Message Sent Successfully!!</span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                 copyright &copy; SAKETHSIRX   <span></span><i class="fa-solid fa-heart-pulse"></i> 
+            </p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script> 
+    <script>
+        var sidemenus =document.getElementById("sidemenu")
+
+        function openmenu() {
+            sidemenus.style.right = "0";
+        }
+        function closemenu() {
+            sidemenus.style.right = "-200px";
+        }
+    </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
